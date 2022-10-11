@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>4096</width>
+    <height>2160</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Map">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>795</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SHORT">
+    <property name="geometry">
+     <rect>
+      <x>1140</x>
+      <y>800</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ZED">
+    <property name="geometry">
+     <rect>
+      <x>1940</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LONG">
+    <property name="geometry">
+     <rect>
+      <x>1940</x>
+      <y>1080</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ZEDCAM">
+    <property name="geometry">
+     <rect>
+      <x>3950</x>
+      <y>50</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ZED CAM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LONGCAM">
+    <property name="geometry">
+     <rect>
+      <x>3950</x>
+      <y>120</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>16mm CAM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SHORTCAM">
+    <property name="geometry">
+     <rect>
+      <x>3950</x>
+      <y>190</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4mm CAM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Decision">
+    <property name="geometry">
+     <rect>
+      <x>3950</x>
+      <y>330</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Decision</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Quit">
+    <property name="geometry">
+     <rect>
+      <x>3950</x>
+      <y>400</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>QUIT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Decision_2">
+    <property name="geometry">
+     <rect>
+      <x>3950</x>
+      <y>260</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MAP</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>4096</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1900</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Map">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>881</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Map</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LONG">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>587</y>
+      <width>871</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LONG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ZEDCAM">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>150</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ZED CAM</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LONGCAM">
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>90</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>16mm CAM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Quit">
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>690</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>QUIT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ZED">
+    <property name="geometry">
+     <rect>
+      <x>883</x>
+      <y>0</y>
+      <width>871</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>400</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>ZED</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MAP">
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>270</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MAP</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CamConf">
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>390</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CamConf</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ModelConf">
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>450</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ModelConf</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Get_PTM">
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>510</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Get PTM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Record">
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>570</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Record</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Playback">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>630</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Playback</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="G_T">
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>30</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Game/Train</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Video">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>210</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Video</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Decision">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>720</y>
+      <width>881</width>
+      <height>308</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>400</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Decision</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DecisionB">
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>330</y>
+      <width>81</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Decision</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RefereeStatus">
+    <property name="geometry">
+     <rect>
+      <x>1766</x>
+      <y>760</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>1770</x>
+      <y>810</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>REF STA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Warning">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>340</y>
+      <width>881</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Warning</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1900</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
